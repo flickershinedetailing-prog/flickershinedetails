@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Flicker Shine Auto Detailing — Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Intro loader -->
+<div id="intro-screen" class="intro">
+  <img src="assets/logo.png" alt="Flicker Shine logo" class="intro-logo">
+  <h1>Flicker Shine Auto Detailing</h1>
+</div>
+
+<!-- Lightning ambient -->
+<div class="lightning-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <img src="assets/logo.png" alt="Flicker Shine logo" class="logo">
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="parallax-bg"></div>
+  <div class="particles" aria-hidden="true"></div>
+  <div class="hero-content">
+    <h2 class="hero-title">Premium Mobile Detailing — Bankstown & Sydney</h2>
+    <p class="hero-sub">Professional-grade products • Ceramic coatings • Mobile service</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#contact">Book Now</a>
+      <a class="btn btn-ghost" href="#services">See Services</a>
+    </div>
+  </div>
+  <div class="dragon-fire" aria-hidden="true"></div>
+  <div class="car-3d" aria-hidden="true"></div>
+</section>
+
+<main>
+  <section id="services" class="section services-section">
+    <h3 class="section-title">Our Packages</h3>
+    <div class="services-grid">
+      <article class="service-card" data-name="Premium Exterior">
+        <h4>Premium Exterior — $80</h4>
+        <p class="lead">Pro-safe wash, foam, two-bucket method, wheels & tyres and premium drying.</p>
+        <ul>
+          <li>Pressurised pre-rinse</li>
+          <li>pH neutral snow foam</li>
+          <li>Two-bucket hand wash</li>
+          <li>Wheel & tyre deep clean</li>
+          <li>Tyre dressing & gloss finish</li>
+        </ul>
+      </article>
+
+      <article class="service-card" data-name="Interior Detail">
+        <h4>Interior Detail — $120</h4>
+        <p class="lead">Deep cabin rejuvenation using interior-safe, anti-bacterial products.</p>
+        <ul>
+          <li>Full interior vacuum & steam</li>
+          <li>Stain spot treatment</li>
+          <li>Leather clean & condition</li>
+          <li>Interior sanitise & deodorise</li>
+        </ul>
+      </article>
+
+      <article class="service-card" data-name="Full Detail">
+        <h4>Full Detail — $150</h4>
+        <p class="lead">Complete inside-out refresh with clay, polish and sealant options.</p>
+        <ul>
+          <li>Complete interior + exterior</li>
+          <li>Clay bar decontamination</li>
+          <li>Light polish & spray sealant</li>
+        </ul>
+      </article>
+
+      <article class="service-card" data-name="Ceramic Coat">
+        <h4>Ceramic Coat — From $300</h4>
+        <p class="lead">Long-term paint protection with premium ceramic products.</p>
+        <ul>
+          <li>Full decontamination + polish prep</li>
+          <li>Professional ceramic application</li>
+          <li>Hydrophobic, UV and chemical resistance</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <h3 class="section-title">About Flicker Shine</h3>
+    <p>Flicker Shine Auto Detailing is a premium mobile detailing business operating in Bankstown and across Sydney. We use only professional-grade products and careful, time-tested techniques to protect your car's finish and keep it looking showroom-new.</p>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h3 class="section-title">Book Your Detail</h3>
+    <div class="contact-inner">
+      <div class="contact-card">
+        <p><strong>Phone / SMS:</strong> 0434 777 998</p>
+        <p><strong>Location:</strong> Bankstown, Sydney NSW</p>
+        <p><strong>Instagram:</strong> @flickershine.autodetailing</p>
+      </div>
+
+      <form id="bookingForm" class="booking-form" aria-label="Booking form">
+        <label>Full name<input name="name" required></label>
+        <label>Phone<input name="phone" required></label>
+        <label>Email (optional)<input name="email" type="email"></label>
+        <label>Service
+          <select name="service" required>
+            <option>Premium Exterior — $80</option>
+            <option>Interior Detail — $120</option>
+            <option>Full Detail — $150</option>
+            <option>Ceramic Coat — From $300</option>
+          </select>
+        </label>
+        <label>Preferred date<input name="date" type="date" required></label>
+        <label>Notes<textarea name="notes"></textarea></label>
+        <button class="btn btn-primary" type="submit">Request Booking</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>© 2025 Flicker Shine Auto Detailing</p>
+    <p>Made with care in Bankstown, Sydney.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
